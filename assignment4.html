@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		 body{
+        background-image: url('reg.jpg');
+      }
+	</style>
+	
+	<title>Assignment 2</title>
+	<link rel="stylesheet" type="text/css" href="reg.css">
+</head>
+<body>
+	
+	<div class="form">
+<div class="heading">Registration Form</div>
+<form  action="/action_page.php">
+	<fieldset>
+<label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+<label for="field2"><span>Email <span class="required">*</span></span><input type="text" class="input-field" name="field2" value="" /></label>
+<label for="field3"><span>Phone <span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
+<label for="field4"><span>Country</span><select name="field4" class="select-field">
+<option value="Country">India</option>
+<option value="Country">USA</option>
+<option value="Country">Canada</option>
+</select></label>
+<label for="field5"><span>Description <span class="required">*</span></span><textarea name="field5" class="textarea-field"></textarea></label>
+
+<label><span> </span><input type="submit" value="Submit" /></label>
+</fieldset>
+</form>
+</div>
+	<script type="text/javascript">
+		function capital(){
+			var x = document.getElementById("");
+			x.value = x.value.toUpperCase();
+		}
+	</script>
+</body>
+</html>
